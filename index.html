@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <main class="display">
+        <div class="window">
+           <span id="pass-box">testing</span>
+              <div class="row">
+                <div class="left">
+                    Password Length
+                </div>
+                <div class="right">
+                    <input type="number" name="" id="total-char" max="30" min="2" value="10">
+                </div>
+              </div>
+
+              <div class="row">
+                  <div class="left">
+                      Contains Uppercase
+                  </div>
+                  <div class="right">
+                      <input type="checkbox" name="" id="upper-case" checked>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="left">
+                    Contains Lowercase
+                </div>
+                <div class="right">
+                    <input type="checkbox" name="" id="lower-case" checked>
+                </div>
+               </div>   
+               
+               
+                <div class="row">
+                    <div class="left">
+                           Contains Number
+                     </div>
+                     <div class="right">
+                           <input type="checkbox" name="" id="number" checked>
+                     </div>
+   
+                </div>
+
+                <div class="row">
+                    <div class="left">
+                           Contains symbols
+                     </div>
+                     <div class="right">
+                           <input type="checkbox" name="" id="symbols" checked>
+                     </div>
+   
+                </div>
+                <div class="row">
+                    <button id="btn">
+                        Generate Password
+                    </button>
+                    
+                </div>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
